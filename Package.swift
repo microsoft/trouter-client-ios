@@ -31,7 +31,7 @@ import PackageDescription
 let package = Package(
     name: "TrouterClientIos",
     platforms: [
-        .macOS(.v10_15), .iOS(.v12), .tvOS(.v12)
+        .iOS(.v12)
     ],
     products: [
         .library(name: "TrouterClientIos", targets: ["TrouterClientIos"]),
