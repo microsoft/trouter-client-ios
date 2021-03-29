@@ -20,5 +20,5 @@ let package = Package(
           checksum: "5cb5737549ebcf87a3db367737b8c0a5806f6b36d17e60936ac3ee283292ad3b"
         ),
     ],
-    swiftLanguageVersions: [.v5],
+    swiftLanguageVersions: [.v5]
 )
