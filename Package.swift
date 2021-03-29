@@ -29,18 +29,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "Trouter",
+    name: "TrouterClientIos",
     platforms: [
         .macOS(.v10_15), .iOS(.v12), .tvOS(.v12)
     ],
     products: [
-        .library(name: "Trouter", targets: ["Trouter"]),
+        .library(name: "TrouterClientIos", targets: ["TrouterClientIos"]),
     ],
     dependencies: [],
     targets: [
         // Build targets
         .binaryTarget(
-          name: "Trouter",
+          name: "TrouterClientIos",
           url: "https://github.com/microsoft/trouter-client-ios/releases/download/v0.0.1-beta.3/TrouterClientIos-0.0.1-beta.3.zip",
           checksum: "34651d8be50e86519d31a0f5a644b925fcc0e7e00c8424a29c2e96b8283f797b"
         ),
